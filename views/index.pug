@@ -8,3 +8,5 @@ block content
   ul 
     each message in messages
       li= message.user + ": " +  message.text + "- " + message.added.toDateString()
+
+  a(href="/new" label="new"): p= "new message"

@@ -1,5 +1,8 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  form(method='POST', action='/new')
+      h3= "New Message:"
+      input(type='text', name='author', placeholder="author")
+      input(type='text', name='message', placeholder="message")
+      input(type="submit", name="submit", innertext="submit")
