@@ -7,4 +7,4 @@ block content
   // indentation is important!
   ul 
     each message in messages
-      li= message.text
+      li= message.user + ": " +  message.text + "- " + message.added.toDateString()
