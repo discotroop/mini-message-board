@@ -1,2 +1,3 @@
 # mini-message-board
-message board built with express
+
+Simple message board built with express
